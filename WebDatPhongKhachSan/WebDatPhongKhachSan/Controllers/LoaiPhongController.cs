@@ -70,13 +70,10 @@ namespace WebDatPhongKhachSan.Controllers
 
             if (!ok) return View("ChiTiet", vm);
 
-            // giá áp dụng/đêm (theo ngày nhận)
-            decimal giaMoiDem = vm.GiaTheoNgay ?? vm.GiaCoBan;
-
             // INSERT DB
             try
             {
-                int maDatPhong = InsertDatPhongAndChiTiet(vm, giaMoiDem);
+                int maDatPhong = InsertDatPhongAndChiTiet(vm);
 
                 vm.ThongBao = $"✅ Đã giữ chỗ thành công! Mã đặt phòng: {maDatPhong} (Trạng thái: Đang giữ chỗ).";
             }
@@ -91,7 +88,7 @@ namespace WebDatPhongKhachSan.Controllers
 
         // ================== DB HELPERS ==================
 
-        private int InsertDatPhongAndChiTiet(LoaiPhongDetailVM vm, decimal giaMoiDem)
+        private int InsertDatPhongAndChiTiet(LoaiPhongDetailVM vm)
         {
             using (var conn = new SqlConnection(conStr))
             {
@@ -103,12 +100,30 @@ namespace WebDatPhongKhachSan.Controllers
                         // 0) Upsert khách hàng -> lấy MaKH
                         int maKH = UpsertKhachHang(conn, tran, vm);
 
-                        // 1) Insert DatPhong (MaND có thể NULL)
-                        const string sqlDatPhong = @"
-INSERT INTO DatPhong (MaKH, NgayDat, NgayNhan, NgayTra, TrangThai, TongTien, GhiChu, MaND)
-VALUES (@MaKH, GETDATE(), @NgayNhan, @NgayTra, N'Đang giữ chỗ', @TongTien, @GhiChu, @MaND);
-SELECT CAST(SCOPE_IDENTITY() AS INT);";
+                        // 1) Đặt phòng qua stored procedure sp_DatPhong
+                        int maDatPhong;
+                        using (var cmd = new SqlCommand("sp_DatPhong", conn, tran))
+                        {
+                            cmd.CommandType = CommandType.StoredProcedure;
+                            cmd.Parameters.Add("@MaKH", SqlDbType.Int).Value = maKH;
+                            cmd.Parameters.Add("@MaKS", SqlDbType.Int).Value = vm.MaKS;
+                            cmd.Parameters.Add("@SoLuongKhach", SqlDbType.Int).Value = vm.TongNguoi;
+                            cmd.Parameters.Add("@LoaiPhong", SqlDbType.Int).Value = vm.MaLoaiPhong;
+                            cmd.Parameters.Add("@NgayDen", SqlDbType.DateTime).Value = vm.NgayNhan.Value;
+                            cmd.Parameters.Add("@NgayDi", SqlDbType.DateTime).Value = vm.NgayTra.Value;
 
+                            using (var rd = cmd.ExecuteReader())
+                            {
+                                if (!rd.Read())
+                                    throw new InvalidOperationException("Không nhận được mã đặt phòng từ sp_DatPhong.");
+
+                                maDatPhong = rd["MaDatPhong"] == DBNull.Value
+                                    ? 0
+                                    : Convert.ToInt32(rd["MaDatPhong"]);
+                            }
+                        }
+
+                        // 2) Bổ sung thông tin không có trong SP (GhiChu, MaND, TongTien dự kiến)
                         object maND = DBNull.Value;
                         // Nếu bạn có login Admin/ND thì lấy từ Session (tùy bạn đang lưu key gì)
                         if (Session != null && Session["MaND"] != null)
@@ -116,33 +131,16 @@ SELECT CAST(SCOPE_IDENTITY() AS INT);";
 
                         string ghiChuDatPhong = BuildGhiChuDatPhong(vm);
 
-                        int maDatPhong;
-                        using (var cmd = new SqlCommand(sqlDatPhong, conn, tran))
+                        using (var cmd = new SqlCommand(@"
+UPDATE DatPhong
+SET GhiChu = @GhiChu, MaND = @MaND, TongTien = @TongTien
+WHERE MaDatPhong = @MaDatPhong;", conn, tran))
                         {
-                            cmd.Parameters.Add("@MaKH", SqlDbType.Int).Value = maKH; // chắc chắn có
-                            cmd.Parameters.Add("@NgayNhan", SqlDbType.Date).Value = vm.NgayNhan.Value.Date;
-                            cmd.Parameters.Add("@NgayTra", SqlDbType.Date).Value = vm.NgayTra.Value.Date;
-                            cmd.Parameters.Add("@TongTien", SqlDbType.Decimal).Value = vm.TongTienDuKien.Value;
+                            cmd.Parameters.Add("@MaDatPhong", SqlDbType.Int).Value = maDatPhong;
                             cmd.Parameters.Add("@GhiChu", SqlDbType.NVarChar, 255).Value =
                                 (object)Truncate(ghiChuDatPhong, 255) ?? DBNull.Value;
                             cmd.Parameters.Add("@MaND", SqlDbType.Int).Value = maND;
-
-                            maDatPhong = (int)cmd.ExecuteScalar();
-                        }
-
-                        // 2) Insert ChiTietDatPhong (MaPhong = NULL đúng yêu cầu)
-                        const string sqlCT = @"
-INSERT INTO ChiTietDatPhong (MaDatPhong, MaPhong, GiaCoBan, SoNguoi, GhiChu)
-VALUES (@MaDatPhong, NULL, @GiaCoBan, @SoNguoi, @GhiChu);";
-
-                        using (var cmd = new SqlCommand(sqlCT, conn, tran))
-                        {
-                            cmd.Parameters.Add("@MaDatPhong", SqlDbType.Int).Value = maDatPhong;
-                            cmd.Parameters.Add("@GiaCoBan", SqlDbType.Decimal).Value = giaMoiDem;
-                            cmd.Parameters.Add("@SoNguoi", SqlDbType.Int).Value = vm.TongNguoi;
-                            cmd.Parameters.Add("@GhiChu", SqlDbType.NVarChar, 255).Value =
-                                (object)Truncate(vm.GhiChu, 255) ?? DBNull.Value;
-
+                            cmd.Parameters.Add("@TongTien", SqlDbType.Decimal).Value = vm.TongTienDuKien.Value;
                             cmd.ExecuteNonQuery();
                         }
 
