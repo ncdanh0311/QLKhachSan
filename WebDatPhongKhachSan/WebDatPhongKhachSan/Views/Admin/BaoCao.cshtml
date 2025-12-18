@@ -1,0 +1,118 @@
+﻿@model WebDatPhongKhachSan.Models.BaoCaoTongHopVM
+@{
+    ViewBag.Title = "Báo cáo doanh thu";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container py-4">
+    <h3 class="fw-bold text-primary mb-4"><i class="fa-solid fa-chart-pie me-2"></i>Báo cáo thống kê</h3>
+
+    <div class="card shadow-sm border-0 mb-4" style="border-radius: 16px;">
+        <div class="card-body p-4">
+            <form method="get" class="row g-3 align-items-end">
+                <div class="col-md-3">
+                    <label class="fw-bold small mb-1 text-muted">Xem ngày (Doanh thu ngày)</label>
+                    <input type="date" name="ngay" class="form-control" value="@Model.NgayBaoCao.ToString("yyyy-MM-dd")" />
+                </div>
+                <div class="col-md-2">
+                    <label class="fw-bold small mb-1 text-muted">Tháng</label>
+                    <input type="number" name="thang" class="form-control" value="@Model.Thang" min="1" max="12" />
+                </div>
+                <div class="col-md-2">
+                    <label class="fw-bold small mb-1 text-muted">Năm</label>
+                    <input type="number" name="nam" class="form-control" value="@Model.Nam" />
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-primary w-100 fw-bold"><i class="fa-solid fa-filter me-2"></i>Xem ngay</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="row g-4 mb-4">
+        <div class="col-md-6">
+            <div class="card h-100 border-0 shadow-sm text-white"
+                 style="border-radius: 16px; background: linear-gradient(135deg, #0071c2, #0b84e3);">
+                <div class="card-body p-4">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h5 class="mb-0 fw-bold text-uppercase" style="opacity:0.9;">Doanh thu ngày @Model.NgayBaoCao.ToString("dd/MM")</h5>
+                        <i class="fa-solid fa-calendar-day fs-4 opacity-50"></i>
+                    </div>
+                    <div class="display-5 fw-bold mb-2">
+                        @string.Format("{0:N0}", Model.DoanhThuNgay?.DoanhThu ?? 0) ₫
+                    </div>
+                    <div class="opacity-75 small">
+                        <i class="fa-solid fa-door-open me-1"></i> @(Model.DoanhThuNgay?.SoPhongCheckout ?? 0) phòng checkout
+                        <span class="mx-2">|</span>
+                        <i class="fa-solid fa-receipt me-1"></i> @(Model.DoanhThuNgay?.SoBookingCheckout ?? 0) đơn
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card h-100 border-0 shadow-sm bg-white" style="border-radius: 16px;">
+                <div class="card-body p-4">
+                    <div class="d-flex justify-content-between align-items-center mb-3 text-success">
+                        <h5 class="mb-0 fw-bold text-uppercase">Tổng tháng @Model.Thang/@Model.Nam</h5>
+                        <i class="fa-solid fa-sack-dollar fs-4 opacity-50"></i>
+                    </div>
+                    <div class="display-5 fw-bold text-dark mb-2">
+                        @string.Format("{0:N0}", Model.DoanhThuThang) ₫
+                    </div>
+                    <div class="text-muted small fst-italic">
+                        * Tổng hợp tiền phòng và dịch vụ phát sinh trong tháng này.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card border-0 shadow-sm" style="border-radius: 16px; overflow:hidden;">
+        <div class="card-header bg-white py-3 border-bottom">
+            <h5 class="fw-bold mb-0 text-primary">
+                <i class="fa-solid fa-medal me-2"></i>Top Dịch vụ bán chạy (Tháng @Model.Thang)
+            </h5>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="bg-light">
+                    <tr>
+                        <th class="ps-4 py-3">Tên dịch vụ</th>
+                        <th class="text-center">Số lượt dùng</th>
+                        <th class="text-end">Doanh thu</th>
+                        <th class="text-end pe-4">Tỷ trọng</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.DichVuBanChay != null && Model.DichVuBanChay.Count > 0)
+                    {
+                        foreach (var item in Model.DichVuBanChay)
+                        {
+                            <tr>
+                                <td class="ps-4 fw-bold text-dark">@item.TenDV</td>
+                                <td class="text-center"><span class="badge bg-secondary rounded-pill">@item.SoLuot</span></td>
+                                <td class="text-end text-success fw-bold">@string.Format("{0:N0}", item.DoanhThu) ₫</td>
+                                <td class="text-end pe-4">
+                                    <div class="progress" style="height: 6px; width: 100px; display:inline-flex;">
+                                        <div class="progress-bar bg-primary" role="progressbar" style="width: @item.PhanTram%"></div>
+                                    </div>
+                                    <span class="small ms-2 text-muted">@item.PhanTram%</span>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="4" class="text-center py-5 text-muted">
+                                <i class="fa-solid fa-box-open fs-1 mb-2 opacity-25"></i>
+                                <div>Chưa có dữ liệu dịch vụ tháng này.</div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

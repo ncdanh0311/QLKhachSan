@@ -1,0 +1,58 @@
+﻿@model WebDatPhongKhachSan.Models.CheckOutVM
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewBag.Title = "Thanh Toán";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-sm" style="max-width: 600px; margin: 0 auto;">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0"><i class="fa-solid fa-receipt me-2"></i>Xác nhận thanh toán</h4>
+        </div>
+        <div class="card-body">
+            <h5 class="text-center mb-4">Hóa đơn tạm tính: <b>#@Model.MaDatPhong</b></h5>
+
+            <div class="d-flex justify-content-between border-bottom py-2">
+                <span class="text-muted">Khách hàng:</span>
+                <span class="fw-bold">@Model.TenKhach</span>
+            </div>
+            <div class="d-flex justify-content-between border-bottom py-2">
+                <span class="text-muted">Tiền phòng:</span>
+                <span>@Model.TongTienPhong.ToString("N0") đ</span>
+            </div>
+            <div class="d-flex justify-content-between border-bottom py-2">
+                <span class="text-muted">Dịch vụ:</span>
+                <span>@Model.TongTienDV.ToString("N0") đ</span>
+            </div>
+            <div class="d-flex justify-content-between py-3 fs-5 text-danger fw-bold">
+                <span>Tổng cộng:</span>
+                <span>@Model.TongCong.ToString("N0") đ</span>
+            </div>
+
+            <form action="@Url.Action("ConfirmCheckOut")" method="post" class="mt-3">
+                <input type="hidden" name="maDatPhong" value="@Model.MaDatPhong" />
+                <input type="hidden" name="tongTien" value="@Model.TongCong" />
+
+                <div class="mb-3">
+                    <label class="form-label">Phương thức thanh toán:</label>
+                    <select name="phuongThuc" class="form-select">
+                        <option value="Tiền mặt">Tiền mặt</option>
+                        <option value="Chuyển khoản">Chuyển khoản</option>
+                        <option value="Thẻ">Thẻ tín dụng</option>
+                    </select>
+                </div>
+
+                <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-success fw-bold">
+                        <i class="fa-solid fa-check me-2"></i>Thanh toán & Trả phòng
+                    </button>
+                    <a href="@Url.Action("SoDoPhong")" class="btn btn-light">Hủy bỏ</a>
+                </div>
+                <div class="mt-2 text-center text-muted small">
+                    <i class="fa-solid fa-circle-info me-1"></i>
+                    Hành động này sẽ tự động chuyển phòng sang trạng thái <b>"Chờ dọn"</b>.
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

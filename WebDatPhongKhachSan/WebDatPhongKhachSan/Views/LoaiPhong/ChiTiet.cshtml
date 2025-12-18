@@ -1,0 +1,413 @@
+﻿@model WebDatPhongKhachSan.Models.LoaiPhongDetailVM
+
+@{
+    ViewBag.Title = "Chi tiết loại phòng";
+    Layout = "~/Views/Shared/LayoutPage.cshtml";
+
+    string checkin = Model.NgayNhan.HasValue ? Model.NgayNhan.Value.ToString("yyyy-MM-dd") : "";
+    string checkout = Model.NgayTra.HasValue ? Model.NgayTra.Value.ToString("yyyy-MM-dd") : "";
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+<style>
+    .wrap {
+        display: grid;
+        grid-template-columns: 1.2fr .8fr;
+        gap: 18px;
+        align-items: start;
+    }
+
+    @@media (max-width: 992px) {
+        .wrap {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .cardx {
+        background: #fff;
+        border: 1px solid rgba(0,0,0,.08);
+        border-radius: 20px;
+        box-shadow: 0 14px 34px rgba(0,0,0,.08);
+        overflow: hidden;
+    }
+
+    .pad {
+        padding: 16px;
+    }
+
+    .hero-img {
+        width: 100%;
+        height: 360px;
+        object-fit: cover;
+        display: block;
+    }
+
+    .thumbs {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+        .thumbs img {
+            width: 100%;
+            height: 110px;
+            object-fit: cover;
+            border-radius: 14px;
+            border: 1px solid rgba(0,0,0,.08);
+        }
+
+    .title {
+        font-size: 1.5rem;
+        font-weight: 950;
+        margin: 0;
+        color: #0b4ab8;
+    }
+
+    .muted {
+        color: #64748b;
+    }
+
+    .pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 4px 10px;
+        border-radius: 999px;
+        background: #eef2ff;
+        color: #1e40af;
+        font-weight: 900;
+        font-size: .8rem;
+    }
+
+    .form-control, .form-select {
+        border-radius: 14px;
+        padding: .8rem .9rem;
+        border: 1px solid rgba(2,8,23,.12);
+    }
+
+        .form-control:focus, .form-select:focus {
+            border-color: rgba(0,113,194,.55);
+            box-shadow: 0 0 0 .25rem rgba(0,113,194,.15);
+        }
+
+    .btn-main {
+        border-radius: 14px;
+        font-weight: 950;
+        padding: .9rem 1rem;
+        background: linear-gradient(135deg,#0071c2,#0b84e3);
+        border: 0;
+        color: #fff;
+        box-shadow: 0 12px 22px rgba(0,113,194,.20);
+    }
+
+    .price {
+        font-size: 1.45rem;
+        font-weight: 950;
+    }
+</style>
+
+<div class="container py-4">
+    @if (!string.IsNullOrWhiteSpace(Model.ThongBao))
+    {
+        <div class="alert @(Model.ThongBao.StartsWith("✅") ? "alert-success" : "alert-warning")">
+            @Model.ThongBao
+        </div>
+    }
+
+
+    <div class="wrap">
+        <!-- LEFT -->
+        <div class="cardx">
+            <img class="hero-img" src="@(Model.Gallery != null && Model.Gallery.Length > 0 ? Model.Gallery[0] : "")" alt="@Model.TenLoai" />
+            <div class="pad">
+                <div class="d-flex justify-content-between align-items-start gap-3">
+                    <div>
+                        <h2 class="title">@Model.TenLoai</h2>
+                        <div class="muted mt-1">
+                            <i class="fa-solid fa-hotel me-1"></i> @Model.TenKS • @Model.ThanhPho, @Model.QuocGia
+                        </div>
+                        <div class="muted mt-1">
+                            <i class="fa-solid fa-location-dot me-1"></i> @Model.DiaChi
+                        </div>
+                    </div>
+
+                    <div class="text-end">
+                        <span class="pill">
+                            <i class="fa-solid fa-users"></i>
+                            Tối đa: @Model.SucChuaNguoiLon NL • @Model.SucChuaTreEm TE
+                        </span>
+                    </div>
+                </div>
+
+                <hr />
+
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <div class="fw-bold mb-1">Mô tả</div>
+                        <div class="muted">
+                            @(string.IsNullOrWhiteSpace(Model.MoTa)
+                                ? "Không gian sạch sẽ, tiện nghi. Phù hợp nghỉ dưỡng và công tác."
+                                : Model.MoTa)
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="fw-bold mb-1">Chính sách & tiện ích (demo)</div>
+                        <ul class="mb-0 muted">
+                            <li>Wifi miễn phí</li>
+                            <li>Không hút thuốc</li>
+                            <li>Hủy miễn phí trước 24h (demo)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                @if (Model.Gallery != null && Model.Gallery.Length > 1)
+                {
+                    <div class="thumbs">
+                        @for (int i = 1; i < Model.Gallery.Length; i++)
+                        {
+                            <img src="@Model.Gallery[i]" alt="thumb @i" loading="lazy" />
+                        }
+                    </div>
+                }
+            </div>
+        </div>
+
+        <!-- RIGHT: form -->
+        <div class="cardx">
+            <div class="pad">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="fw-bold">Đặt phòng</div>
+
+                    <div class="text-end">
+                        <div class="muted small">Giá cơ bản / đêm</div>
+                        <div class="price" id="giaCoBanUI">@String.Format("{0:N0} ₫", Model.GiaCoBan)</div>
+
+                        <div class="muted small mt-1">Giá áp dụng / đêm (theo ngày nhận)</div>
+                        <div class="fw-bold text-danger" id="giaApDungUI">
+                            @String.Format("{0:N0} ₫", (Model.GiaTheoNgay ?? Model.GiaCoBan))
+                        </div>
+                    </div>
+                </div>
+
+                <hr />
+
+                @using (Html.BeginForm("DatPhong", "LoaiPhong", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.HiddenFor(m => m.MaLoaiPhong)
+                    @Html.HiddenFor(m => m.MaKS)
+
+            <div class="row g-2">
+                <div class="col-6">
+                    <label class="form-label fw-bold small">Ngày nhận</label>
+                    <input id="NgayNhan" type="date" name="NgayNhan" value="@checkin" class="form-control" />
+                </div>
+                <div class="col-6">
+                    <label class="form-label fw-bold small">Ngày trả</label>
+                    <input id="NgayTra" type="date" name="NgayTra" value="@checkout" class="form-control" />
+                </div>
+
+                <div class="col-6">
+                    <label class="form-label fw-bold small">Người lớn (max @Model.SucChuaNguoiLon)</label>
+                    <input id="SoNguoiLon" type="number" name="SoNguoiLon" class="form-control"
+                           min="1" max="@Model.SucChuaNguoiLon" value="@Model.SoNguoiLon" />
+                </div>
+
+                <div class="col-6">
+                    <label class="form-label fw-bold small">Trẻ em (max @Model.SucChuaTreEm)</label>
+                    <input id="SoTreEm" type="number" name="SoTreEm" class="form-control"
+                           min="0" max="@Model.SucChuaTreEm" value="@Model.SoTreEm" />
+                </div>
+
+                <div class="col-6">
+                    <label class="form-label fw-bold small">Số phòng</label>
+                    <input id="SoPhong" type="number" name="SoPhong" class="form-control"
+                           min="1" value="@Model.SoPhong" />
+                </div>
+
+                <div class="col-12">
+                    <label class="form-label fw-bold small">Ghi chú (tuỳ chọn)</label>
+                    <textarea name="GhiChu" class="form-control" rows="3"
+                              placeholder="Ví dụ: cần giường đôi, check-in muộn...">@Model.GhiChu</textarea>
+                </div>
+                <div class="col-12">
+                    <label class="form-label fw-bold small">Họ tên người đặt *</label>
+                    <input type="text" name="HoTen" class="form-control" required
+                           value="@Model.HoTen" placeholder="Ví dụ: Nguyễn Văn A" />
+                </div>
+
+                <div class="col-12">
+                    <label class="form-label fw-bold small">Số điện thoại *</label>
+                    <input type="tel" name="SDT" class="form-control" required
+                           value="@Model.SDT" placeholder="Ví dụ: 0912345678" />
+                </div>
+                <div class="col-12">
+                    <label class="form-label fw-bold small">CCCD *</label>
+                    <input type="text" name="CCCD" class="form-control" required
+                           value="@Model.CCCD" placeholder="Ví dụ: 079123456789" />
+                </div>
+
+                <div class="col-12">
+                    <label class="form-label fw-bold small">Email (tuỳ chọn)</label>
+                    <input type="email" name="Email" class="form-control"
+                           value="@Model.Email" placeholder="abc@gmail.com" />
+                </div>
+
+                <div class="col-6">
+                    <label class="form-label fw-bold small">Giới tính (tuỳ chọn)</label>
+                    <select name="GioiTinh" class="form-select">
+                        <option value="">-- Chọn --</option>
+                        <option value="Nam" @(Model.GioiTinh == "Nam" ? "selected" : "")>Nam</option>
+                        <option value="Nữ" @(Model.GioiTinh == "Nữ" ? "selected" : "")>Nữ</option>
+                    </select>
+                </div>
+
+                <div class="col-6">
+                    <label class="form-label fw-bold small">Quốc tịch (tuỳ chọn)</label>
+                    <input type="text" name="QuocTich" class="form-control"
+                           value="@Model.QuocTich" placeholder="Việt Nam" />
+                </div>
+
+
+            </div>
+
+                    <div class="mt-3 p-3 rounded-4" style="background:rgba(2,8,23,.03); border:1px dashed rgba(2,8,23,.12);">
+                        <div class="d-flex justify-content-between">
+                            <span class="muted">Số đêm</span>
+                            <b id="soDemUI">@Model.SoDem</b>
+                        </div>
+                        <div class="d-flex justify-content-between mt-1">
+                            <span class="muted">Tổng tiền dự kiến</span>
+                            <b class="text-danger" id="tongTienUI">
+                                @(Model.TongTienDuKien.HasValue ? String.Format("{0:N0} ₫", Model.TongTienDuKien.Value) : "—")
+                            </b>
+                        </div>
+                        <div class="muted small mt-2">
+                            * Giá áp dụng/đêm tự cập nhật theo ngày nhận (lễ/cuối tuần).
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-main w-100 mt-3">
+                        <i class="fa-solid fa-bolt me-2"></i>Đặt ngay
+                    </button>
+                }
+
+                <a class="btn btn-outline-secondary w-100 mt-2" style="border-radius:14px;"
+                   href="@Url.Action("LoaiPhong","Phong", new { maKS = Model.MaKS, ngayNhan = checkin })">
+                    ← Quay lại danh sách loại phòng
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // ===== Helpers =====
+    function fmtVND(n) {
+        if (n === null || n === undefined) return "—";
+        return Number(n).toLocaleString('vi-VN') + " ₫";
+    }
+
+    function parseISODate(s) { // yyyy-MM-dd
+        if (!s) return null;
+        const d = new Date(s + "T00:00:00");
+        return isNaN(d) ? null : d;
+    }
+
+    function daysBetween(a, b) {
+        const ms = 24 * 60 * 60 * 1000;
+        return Math.round((b - a) / ms);
+    }
+
+    // ===== Elements =====
+    const maLoaiPhong = @Model.MaLoaiPhong;
+    const inpNhan = document.getElementById("NgayNhan");
+    const inpTra = document.getElementById("NgayTra");
+    const inpPhong = document.getElementById("SoPhong");
+
+    const giaApDungUI = document.getElementById("giaApDungUI");
+    const soDemUI = document.getElementById("soDemUI");
+    const tongTienUI = document.getElementById("tongTienUI");
+
+    // Giá hiện tại (sẽ update theo ajax)
+    let giaMoiDem = @(Model.GiaTheoNgay ?? Model.GiaCoBan);
+
+    function enforceDateRule() {
+        const dNhan = parseISODate(inpNhan.value);
+        if (!dNhan) return;
+
+        // min ngày trả = ngày nhận + 1
+        const minTra = new Date(dNhan.getTime() + 24 * 60 * 60 * 1000);
+        const minStr = minTra.toISOString().slice(0, 10);
+        inpTra.min = minStr;
+
+        // nếu đang chọn ngày trả <= ngày nhận thì auto set = min
+        const dTra = parseISODate(inpTra.value);
+        if (!dTra || dTra <= dNhan) {
+            inpTra.value = minStr;
+        }
+    }
+
+    function recalcTotal() {
+        const dNhan = parseISODate(inpNhan.value);
+        const dTra = parseISODate(inpTra.value);
+        const soPhong = Math.max(1, parseInt(inpPhong.value || "1"));
+
+        if (!dNhan || !dTra || dTra <= dNhan) {
+            soDemUI.textContent = "0";
+            tongTienUI.textContent = "—";
+            return;
+        }
+
+        const dem = daysBetween(dNhan, dTra);
+        soDemUI.textContent = dem.toString();
+
+        const total = giaMoiDem * dem * soPhong;
+        tongTienUI.textContent = fmtVND(total);
+    }
+
+    async function updateGiaTheoNgay() {
+        const dNhan = inpNhan.value;
+        if (!dNhan) {
+            giaMoiDem = @Model.GiaCoBan;
+            giaApDungUI.textContent = fmtVND(giaMoiDem);
+            recalcTotal();
+            return;
+        }
+
+        try {
+            const url = `@Url.Action("GiaTheoNgay", "LoaiPhong")?maLoaiPhong=${maLoaiPhong}&ngayNhan=${encodeURIComponent(dNhan)}`;
+            const res = await fetch(url);
+            const data = await res.json();
+
+            if (data && data.ok) {
+                giaMoiDem = data.giaMoiDem;
+                giaApDungUI.textContent = fmtVND(giaMoiDem);
+            }
+        } catch (e) {
+            // fail silently, giữ giá cũ
+        }
+
+        recalcTotal();
+    }
+
+    // ===== Events: auto update =====
+    inpNhan.addEventListener("change", () => {
+        enforceDateRule();
+        updateGiaTheoNgay();
+    });
+
+    inpTra.addEventListener("change", () => {
+        enforceDateRule();
+        recalcTotal();
+    });
+
+    inpPhong.addEventListener("input", () => recalcTotal());
+
+    // init
+    enforceDateRule();
+    recalcTotal();
+</script>

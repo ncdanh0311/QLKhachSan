@@ -1,0 +1,649 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\views\\admin\\sodophong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\views\\admin\\sodophong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\views\\home\\trangchu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\views\\home\\trangchu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\controllers\\taikhoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\controllers\\taikhoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|f:\\ngduylinh\\\u0111\u1ED3 \u00E1n\\nhom_2_room_hotelbookingsystem\\webdatphongkhachsan\\webdatphongkhachsan\\views\\admin\\baocao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\views\\admin\\baocao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\views\\admin\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\views\\admin\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\models\\checkoutvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\models\\checkoutvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\models\\chitietdatphongvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\models\\chitietdatphongvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\models\\itemdichvuvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\models\\itemdichvuvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\models\\itemphongvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\models\\itemphongvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\models\\lichsudatphongvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\models\\lichsudatphongvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\models\\baocaotonghopvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\models\\baocaotonghopvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\models\\dichvutopvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\models\\dichvutopvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\models\\baocaongayvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\models\\baocaongayvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\models\\phongstatusvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\models\\phongstatusvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\controllers\\datphongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\controllers\\datphongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\controllers\\phongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\controllers\\phongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\controllers\\loaiphongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\controllers\\loaiphongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\views\\datphong\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\views\\datphong\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\views\\datphong\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\views\\datphong\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\views\\phong\\loaiphong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\views\\phong\\loaiphong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\views\\shared\\layoutpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\views\\shared\\layoutpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\models\\bookinglistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\models\\bookinglistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\models\\bookingrowvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\models\\bookingrowvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\models\\loaiphongdetailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\models\\loaiphongdetailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\views\\loaiphong\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\views\\loaiphong\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\models\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\models\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\models\\loaiphongcardvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\models\\loaiphongcardvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\views\\taikhoan\\dangki.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\views\\taikhoan\\dangki.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\views\\taikhoan\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\views\\taikhoan\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\models\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\models\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\views\\loaiphong\\datphong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\views\\loaiphong\\datphong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\models\\khachsancardvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\models\\khachsancardvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\models\\khachsanviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\models\\khachsanviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\webdatphongkhachsan\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{666D9412-6770-452C-B22E-90B98A151C8D}|WebDatPhongKhachSan\\WebDatPhongKhachSan.csproj|solutionrelative:webdatphongkhachsan\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CheckOutVM.cs",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\CheckOutVM.cs",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Models\\CheckOutVM.cs",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\CheckOutVM.cs",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Models\\CheckOutVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T13:10:45.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T13:09:24.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaoCao.cshtml",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Views\\Admin\\BaoCao.cshtml",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Views\\Admin\\BaoCao.cshtml",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Views\\Admin\\BaoCao.cshtml",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Views\\Admin\\BaoCao.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T02:25:22.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SoDoPhong.cshtml",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Views\\Admin\\SoDoPhong.cshtml",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Views\\Admin\\SoDoPhong.cshtml",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Views\\Admin\\SoDoPhong.cshtml",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Views\\Admin\\SoDoPhong.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAADwv2wAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T02:24:45.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Controllers\\AdminController.cs",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAABQBAAAAAAAAAAAcwEcBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T02:23:37.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ItemDichVuVM.cs",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\ItemDichVuVM.cs",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Models\\ItemDichVuVM.cs",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\ItemDichVuVM.cs",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Models\\ItemDichVuVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T02:20:36.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaiKhoanController.cs",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Controllers\\TaiKhoanController.cs",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Controllers\\TaiKhoanController.cs",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Controllers\\TaiKhoanController.cs",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Controllers\\TaiKhoanController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAwwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T08:15:10.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChiTietDatPhongVM.cs",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\ChiTietDatPhongVM.cs",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Models\\ChiTietDatPhongVM.cs",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\ChiTietDatPhongVM.cs",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Models\\ChiTietDatPhongVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T02:21:06.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ItemPhongVM.cs",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\ItemPhongVM.cs",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Models\\ItemPhongVM.cs",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\ItemPhongVM.cs",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Models\\ItemPhongVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T02:20:20.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TrangChu.cshtml",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Views\\Home\\TrangChu.cshtml",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Views\\Home\\TrangChu.cshtml",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Views\\Home\\TrangChu.cshtml",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Views\\Home\\TrangChu.cshtml",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAYwM4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-16T08:54:44.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CheckOut.cshtml",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Views\\Admin\\CheckOut.cshtml",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Views\\Admin\\CheckOut.cshtml",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Views\\Admin\\CheckOut.cshtml",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Views\\Admin\\CheckOut.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAcwDkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T13:12:42.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LichSuDatPhongVM.cs",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\LichSuDatPhongVM.cs",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Models\\LichSuDatPhongVM.cs",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\LichSuDatPhongVM.cs",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Models\\LichSuDatPhongVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T02:19:13.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Web.config",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Web.config",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Web.config",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Web.config",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-12-14T16:14:40.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BaoCaoTongHopVM.cs",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\BaoCaoTongHopVM.cs",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Models\\BaoCaoTongHopVM.cs",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\BaoCaoTongHopVM.cs",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Models\\BaoCaoTongHopVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T02:18:49.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DichVuTopVM.cs",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\DichVuTopVM.cs",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Models\\DichVuTopVM.cs",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\DichVuTopVM.cs",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Models\\DichVuTopVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T02:18:19.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BaoCaoNgayVM.cs",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\BaoCaoNgayVM.cs",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Models\\BaoCaoNgayVM.cs",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\BaoCaoNgayVM.cs",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Models\\BaoCaoNgayVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T02:17:55.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PhongStatusVM.cs",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\PhongStatusVM.cs",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Models\\PhongStatusVM.cs",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\PhongStatusVM.cs",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Models\\PhongStatusVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T02:17:22.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ChiTiet.cshtml",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Views\\DatPhong\\ChiTiet.cshtml",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Views\\DatPhong\\ChiTiet.cshtml",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Views\\DatPhong\\ChiTiet.cshtml",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Views\\DatPhong\\ChiTiet.cshtml",
+              "ViewState": "AgIAAEABAAAAAAAAAAAqwGABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T12:20:51.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Views\\DatPhong\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Views\\DatPhong\\Index.cshtml",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Views\\DatPhong\\Index.cshtml",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Views\\DatPhong\\Index.cshtml",
+              "ViewState": "AgIAABoBAAAAAAAAAAAqwEYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T12:20:37.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BookingListVM.cs",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\BookingListVM.cs",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Models\\BookingListVM.cs",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\BookingListVM.cs",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Models\\BookingListVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T12:20:10.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DatPhongController.cs",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Controllers\\DatPhongController.cs",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Controllers\\DatPhongController.cs",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Controllers\\DatPhongController.cs",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Controllers\\DatPhongController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAEwAwAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T12:19:36.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BookingRowVM.cs",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\BookingRowVM.cs",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Models\\BookingRowVM.cs",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\BookingRowVM.cs",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Models\\BookingRowVM.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T12:19:08.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DangKi.cshtml",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Views\\TaiKhoan\\DangKi.cshtml",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Views\\TaiKhoan\\DangKi.cshtml",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Views\\TaiKhoan\\DangKi.cshtml",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Views\\TaiKhoan\\DangKi.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T08:19:45.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DangNhap.cshtml",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Views\\TaiKhoan\\DangNhap.cshtml",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Views\\TaiKhoan\\DangNhap.cshtml",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Views\\TaiKhoan\\DangNhap.cshtml",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Views\\TaiKhoan\\DangNhap.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T08:19:06.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RegisterVM.cs",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\RegisterVM.cs",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Models\\RegisterVM.cs",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\RegisterVM.cs",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Models\\RegisterVM.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T08:14:30.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoginVM.cs",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\LoginVM.cs",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Models\\LoginVM.cs",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\LoginVM.cs",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Models\\LoginVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T08:14:15.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ChiTiet.cshtml",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Views\\LoaiPhong\\ChiTiet.cshtml",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Views\\LoaiPhong\\ChiTiet.cshtml",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Views\\LoaiPhong\\ChiTiet.cshtml",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Views\\LoaiPhong\\ChiTiet.cshtml",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAqwBABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-13T17:35:50.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DatPhong.cshtml",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Views\\LoaiPhong\\DatPhong.cshtml",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Views\\LoaiPhong\\DatPhong.cshtml",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Views\\LoaiPhong\\DatPhong.cshtml",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Views\\LoaiPhong\\DatPhong.cshtml",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAowA0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-13T17:31:32.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoaiPhongController.cs",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Controllers\\LoaiPhongController.cs",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Controllers\\LoaiPhongController.cs",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Controllers\\LoaiPhongController.cs",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Controllers\\LoaiPhongController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T17:30:55.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LoaiPhongDetailVM.cs",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\LoaiPhongDetailVM.cs",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Models\\LoaiPhongDetailVM.cs",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\LoaiPhongDetailVM.cs",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Models\\LoaiPhongDetailVM.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA4wBMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T17:29:39.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoaiPhong.cshtml",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Views\\Phong\\LoaiPhong.cshtml",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Views\\Phong\\LoaiPhong.cshtml",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Views\\Phong\\LoaiPhong.cshtml",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Views\\Phong\\LoaiPhong.cshtml",
+              "ViewState": "AgIAAHQBAAAAAAAAAAAowIEBAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-13T17:07:52.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LoaiPhongCardVM.cs",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\LoaiPhongCardVM.cs",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Models\\LoaiPhongCardVM.cs",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\LoaiPhongCardVM.cs",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Models\\LoaiPhongCardVM.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T17:07:23.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PhongController.cs",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Controllers\\PhongController.cs",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Controllers\\PhongController.cs",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Controllers\\PhongController.cs",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Controllers\\PhongController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T17:05:01.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "KhachSanViewModel.cs",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\KhachSanViewModel.cs",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Models\\KhachSanViewModel.cs",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\KhachSanViewModel.cs",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Models\\KhachSanViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T17:04:25.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "KhachSanCardVM.cs",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\KhachSanCardVM.cs",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Models\\KhachSanCardVM.cs",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Models\\KhachSanCardVM.cs",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Models\\KhachSanCardVM.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T16:07:03.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\App_Start\\RouteConfig.cs",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "WebDatPhongKhachSan\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T15:30:28.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "web.config",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Views\\web.config",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Views\\web.config",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Views\\web.config",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Views\\web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-27T07:42:55.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LayoutPage.cshtml",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Views\\Shared\\LayoutPage.cshtml",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Views\\Shared\\LayoutPage.cshtml",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Views\\Shared\\LayoutPage.cshtml",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Views\\Shared\\LayoutPage.cshtml",
+              "ViewState": "AgIAAJYBAAAAAAAAAAAqwKEBAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-16T08:57:45.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebDatPhongKhachSan\\Controllers\\HomeController.cs",
+              "ToolTip": "F:\\NgDuyLinh\\\u0110\u1ED3 \u00E1n\\Nhom_2_Room_HotelBookingSystem\\WebDatPhongKhachSan\\WebDatPhongKhachSan\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebDatPhongKhachSan\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T08:53:24.503Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

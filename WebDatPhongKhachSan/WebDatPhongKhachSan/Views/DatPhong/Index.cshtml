@@ -1,0 +1,326 @@
+﻿@model WebDatPhongKhachSan.Models.BookingListVM
+@{
+    ViewBag.Title = "Danh sách đặt phòng";
+    Layout = "~/Views/Shared/LayoutPage.cshtml";
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+<style>
+    .page-title {
+        font-weight: 950;
+        letter-spacing: -.2px;
+        color: #0b4ab8;
+    }
+
+    .cardx {
+        background: #fff;
+        border: 1px solid rgba(2,8,23,.08);
+        border-radius: 18px;
+        box-shadow: 0 14px 34px rgba(2,8,23,.08);
+        overflow: hidden;
+    }
+
+    .cardx-header {
+        padding: 14px 16px;
+        background: linear-gradient(135deg, rgba(0,113,194,.10), rgba(11,132,227,.06));
+        border-bottom: 1px solid rgba(2,8,23,.08);
+    }
+
+    .chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 6px 10px;
+        border-radius: 999px;
+        border: 1px solid rgba(2,8,23,.10);
+        background: rgba(2,8,23,.02);
+        font-weight: 800;
+        font-size: .82rem;
+        color: #0f172a;
+    }
+
+    .ctrl {
+        border-radius: 14px;
+        border: 1px solid rgba(2,8,23,.12);
+        padding: .75rem .9rem;
+    }
+
+        .ctrl:focus {
+            border-color: rgba(0,113,194,.55);
+            box-shadow: 0 0 0 .25rem rgba(0,113,194,.15);
+        }
+
+    .btn-main {
+        border-radius: 14px;
+        font-weight: 950;
+        padding: .75rem 1rem;
+        background: linear-gradient(135deg,#0071c2,#0b84e3);
+        border: 0;
+        color: #fff;
+        box-shadow: 0 12px 22px rgba(0,113,194,.20);
+    }
+
+    .btn-soft {
+        border-radius: 14px;
+        font-weight: 900;
+        padding: .75rem 1rem;
+        background: rgba(2,8,23,.03);
+        border: 1px solid rgba(2,8,23,.10);
+        color: #0f172a;
+    }
+
+    .table thead th {
+        font-size: .82rem;
+        text-transform: uppercase;
+        letter-spacing: .7px;
+        color: #334155;
+        background: #f8fafc !important;
+        border-bottom: 1px solid rgba(2,8,23,.08);
+    }
+
+    .row-hover tbody tr {
+        transition: .12s ease;
+    }
+
+        .row-hover tbody tr:hover {
+            background: rgba(0,113,194,.06);
+            transform: translateY(-1px);
+        }
+
+    .muted {
+        color: #64748b;
+    }
+
+    .mono {
+        font-variant-numeric: tabular-nums;
+    }
+
+    .badge-status {
+        border-radius: 999px;
+        padding: .35rem .6rem;
+        font-weight: 900;
+        letter-spacing: .2px;
+    }
+
+    .badge-hold {
+        background: rgba(59,130,246,.12);
+        color: #1d4ed8;
+        border: 1px solid rgba(29,78,216,.25);
+    }
+
+    .badge-ok {
+        background: rgba(16,185,129,.14);
+        color: #047857;
+        border: 1px solid rgba(4,120,87,.25);
+    }
+
+    .badge-cancel {
+        background: rgba(239,68,68,.12);
+        color: #b91c1c;
+        border: 1px solid rgba(185,28,28,.25);
+    }
+
+    .badge-warn {
+        background: rgba(245,158,11,.14);
+        color: #92400e;
+        border: 1px solid rgba(146,64,14,.25);
+    }
+
+    .money {
+        font-weight: 950;
+        color: #dc2626;
+    }
+
+    .empty {
+        padding: 22px;
+        border-radius: 16px;
+        border: 1px dashed rgba(2,8,23,.18);
+        background: rgba(2,8,23,.02);
+    }
+
+    .iconbox {
+        width: 38px;
+        height: 38px;
+        border-radius: 12px;
+        display: grid;
+        place-items: center;
+        background: rgba(0,113,194,.10);
+        color: #0b4ab8;
+        border: 1px solid rgba(0,113,194,.16);
+    }
+</style>
+
+<div class="container py-4">
+
+    <div class="d-flex align-items-start justify-content-between flex-wrap gap-2 mb-3">
+        <div class="d-flex align-items-center gap-2">
+            <div class="iconbox"><i class="fa-solid fa-receipt"></i></div>
+            <div>
+                <div class="page-title h4 mb-0">Danh sách đặt phòng</div>
+                <div class="muted small">Tra cứu theo mã đặt, họ tên, CCCD, SĐT và lọc theo ngày nhận</div>
+            </div>
+        </div>
+
+        <span class="chip">
+            <i class="fa-solid fa-layer-group"></i>
+            Tổng: <b class="mono">@((Model.Items?.Count ?? 0))</b> đơn
+        </span>
+    </div>
+
+    <!-- FILTER CARD -->
+    <div class="cardx mb-3">
+        <div class="cardx-header d-flex align-items-center justify-content-between flex-wrap gap-2">
+            <div class="fw-bold">
+                <i class="fa-solid fa-filter me-1"></i> Bộ lọc
+            </div>
+            <div class="muted small">Tip: để trống để xem tất cả</div>
+        </div>
+
+        <div class="p-3">
+            <form class="row g-2" method="get" action="@Url.Action("Index","DatPhong")">
+                <div class="col-lg-4 col-12">
+                    <div class="input-group">
+                        <span class="input-group-text" style="border-radius:14px 0 0 14px; border:1px solid rgba(2,8,23,.12); background:#fff;">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                        <input name="keyword" value="@Model.Keyword" class="form-control ctrl"
+                               style="border-radius:0 14px 14px 0;"
+                               placeholder="Tìm: mã đặt / họ tên / CCCD / SĐT" />
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-12">
+                    <input name="trangThai" value="@Model.TrangThai" class="form-control ctrl"
+                           placeholder="Trạng thái (vd: Đang giữ chỗ)" />
+                </div>
+
+                <div class="col-lg-2 col-6">
+                    <input type="date" name="tuNgay"
+                           value="@(Model.TuNgay?.ToString("yyyy-MM-dd") ?? "")"
+                           class="form-control ctrl" />
+                </div>
+
+                <div class="col-lg-2 col-6">
+                    <input type="date" name="denNgay"
+                           value="@(Model.DenNgay?.ToString("yyyy-MM-dd") ?? "")"
+                           class="form-control ctrl" />
+                </div>
+
+                <div class="col-lg-1 col-12 d-grid">
+                    <button class="btn btn-main">
+                        <i class="fa-solid fa-sliders me-1"></i>Lọc
+                    </button>
+                </div>
+
+                @* nút reset *@
+                <div class="col-12 d-grid d-lg-none">
+                    <a class="btn btn-soft" href="@Url.Action("Index","DatPhong")">
+                        <i class="fa-solid fa-rotate-left me-1"></i>Reset
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- TABLE CARD -->
+    <div class="cardx">
+        <div class="cardx-header d-flex align-items-center justify-content-between flex-wrap gap-2">
+            <div class="fw-bold">
+                <i class="fa-solid fa-list-check me-1"></i> Kết quả
+            </div>
+            <a class="btn btn-soft d-none d-lg-inline-flex" href="@Url.Action("Index","DatPhong")">
+                <i class="fa-solid fa-rotate-left me-1"></i>Reset
+            </a>
+        </div>
+
+        <div class="p-0">
+            @if (Model.Items == null || Model.Items.Count == 0)
+            {
+                <div class="p-3">
+                    <div class="empty text-center">
+                        <div class="fw-bold mb-1">Không có dữ liệu phù hợp</div>
+                        <div class="muted">Hãy thử xoá bộ lọc hoặc tìm bằng SĐT/CCCD.</div>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div class="table-responsive">
+                    <table class="table align-middle mb-0 row-hover">
+                        <thead>
+                            <tr>
+                                <th style="width:110px;">Mã</th>
+                                <th>Khách</th>
+                                <th style="width:220px;">Nhận/Trả</th>
+                                <th style="width:170px;">Phòng</th>
+                                <th style="width:160px;">Trạng thái</th>
+                                <th class="text-end" style="width:160px;">Tổng tiền</th>
+                                <th class="text-end" style="width:110px;"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var x in Model.Items)
+                            {
+                                // badge màu theo trạng thái (tự suy ra)
+                                var st = (x.TrangThai ?? "").ToLower();
+                                var badgeClass = "badge-warn";
+                                if (st.Contains("giữ") || st.Contains("chờ") || st.Contains("xác nhận")) { badgeClass = "badge-hold"; }
+                                if (st.Contains("thành công") || st.Contains("hoàn tất") || st.Contains("đã nhận") || st.Contains("check")) { badgeClass = "badge-ok"; }
+                                if (st.Contains("hủy") || st.Contains("huỷ")) { badgeClass = "badge-cancel"; }
+
+                                <tr>
+                                    <td class="fw-bold mono">#@x.MaDatPhong</td>
+
+                                    <td>
+                                        <div class="fw-bold">@((string.IsNullOrWhiteSpace(x.HoTen) ? "—" : x.HoTen))</div>
+                                        <div class="muted small">
+                                            CCCD: @((string.IsNullOrWhiteSpace(x.CCCD) ? "—" : x.CCCD))
+                                            • SĐT: @((string.IsNullOrWhiteSpace(x.SoDienThoai) ? "—" : x.SoDienThoai))
+                                        </div>
+                                    </td>
+
+                                    <td>
+                                        <div class="mono">@x.NgayNhan.ToString("dd/MM/yyyy") → @x.NgayTra.ToString("dd/MM/yyyy")</div>
+                                        <div class="muted small">@x.SoDem đêm</div>
+                                    </td>
+
+                                    <td>
+                                        @if (x.MaPhong.HasValue)
+                                        {
+                                            <div class="fw-bold">@x.TenPhong</div>
+                                            <div class="muted small">@x.TenLoai</div>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge badge-status badge-warn">
+                                                <i class="fa-solid fa-hourglass-half me-1"></i>Chưa xếp phòng
+                                            </span>
+                                        }
+                                    </td>
+
+                                    <td>
+                                        <span class="badge badge-status @badgeClass">
+                                            <i class="fa-solid fa-circle-info me-1"></i>@x.TrangThai
+                                        </span>
+                                    </td>
+
+                                    <td class="text-end money mono">@String.Format("{0:N0} ₫", x.TongTien)</td>
+
+                                    <td class="text-end">
+                                        <a class="btn btn-sm btn-outline-primary"
+                                           style="border-radius:12px; font-weight:900;"
+                                           href="@Url.Action("ChiTiet","DatPhong", new { id = x.MaDatPhong })">
+                                            Chi tiết <i class="fa-solid fa-arrow-right ms-1"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+        </div>
+    </div>
+</div>

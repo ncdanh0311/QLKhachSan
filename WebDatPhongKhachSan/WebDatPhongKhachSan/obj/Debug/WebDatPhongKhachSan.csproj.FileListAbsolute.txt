@@ -1,0 +1,288 @@
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\WebDatPhongKhachSan.dll.config
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\WebDatPhongKhachSan.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\WebDatPhongKhachSan.pdb
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\csc.exe
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\csc.exe.config
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\csc.rsp
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\csi.exe
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\csi.exe.config
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\csi.rsp
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.Managed.Core.targets
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.AppContext.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Collections.Immutable.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Console.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Globalization.Calendars.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.IO.Compression.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.IO.FileSystem.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Net.Http.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Net.Sockets.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Reflection.Metadata.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.ValueTuple.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Xml.XmlDocument.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Xml.XPath.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\vbc.exe
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\vbc.exe.config
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\vbc.rsp
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\VBCSCompiler.exe
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\VBCSCompiler.exe.config
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\Microsoft.Web.Infrastructure.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Helpers.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Mvc.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Razor.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Webpages.Deployment.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Webpages.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Webpages.Razor.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Razor.xml
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Webpages.xml
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Webpages.Deployment.xml
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Webpages.Razor.xml
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Helpers.xml
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Mvc.xml
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\obj\Debug\WebDatPhongKhachSan.csproj.AssemblyReference.cache
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\obj\Debug\WebDatPhongKhachSan.csproj.CoreCompileInputs.cache
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\obj\Debug\WebDatPh.50C7A612.Up2Date
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\obj\Debug\WebDatPhongKhachSan.dll
+D:\WebDatPhongKhachSan\WebDatPhongKhachSan\obj\Debug\WebDatPhongKhachSan.pdb
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\WebDatPhongKhachSan.dll.config
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\WebDatPhongKhachSan.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\WebDatPhongKhachSan.pdb
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\csc.exe
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\csc.exe.config
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\csc.rsp
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\csi.exe
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\csi.exe.config
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\csi.rsp
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.AppContext.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Console.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.IO.Compression.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Net.Http.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Net.Sockets.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.ValueTuple.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Xml.XPath.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\vbc.exe
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\vbc.exe.config
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\vbc.rsp
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\VBCSCompiler.exe
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Helpers.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Mvc.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Razor.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Webpages.Deployment.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Webpages.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Webpages.Razor.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Razor.xml
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Webpages.xml
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Webpages.Deployment.xml
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Webpages.Razor.xml
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Helpers.xml
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Mvc.xml
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\obj\Debug\WebDatPhongKhachSan.csproj.AssemblyReference.cache
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\obj\Debug\WebDatPhongKhachSan.csproj.CoreCompileInputs.cache
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\obj\Debug\WebDatPh.50C7A612.Up2Date
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\obj\Debug\WebDatPhongKhachSan.dll
+C:\Users\kieup\OneDrive\Desktop\DOAN\WebDatPhongKhachSan\WebDatPhongKhachSan\obj\Debug\WebDatPhongKhachSan.pdb
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\WebDatPhongKhachSan.dll.config
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\WebDatPhongKhachSan.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\WebDatPhongKhachSan.pdb
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\csc.exe
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\csc.exe.config
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\csc.rsp
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\csi.exe
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\csi.exe.config
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\csi.rsp
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.AppContext.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Collections.Immutable.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Console.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Globalization.Calendars.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.IO.Compression.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.IO.FileSystem.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Net.Http.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Net.Sockets.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Reflection.Metadata.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.ValueTuple.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Xml.XPath.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\vbc.exe
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\vbc.exe.config
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\vbc.rsp
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\VBCSCompiler.exe
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\VBCSCompiler.exe.config
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\Microsoft.Web.Infrastructure.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Helpers.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Mvc.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Razor.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Webpages.Deployment.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Webpages.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Webpages.Razor.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Razor.xml
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Webpages.xml
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Webpages.Deployment.xml
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Webpages.Razor.xml
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Helpers.xml
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Mvc.xml
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\obj\Debug\WebDatPhongKhachSan.csproj.AssemblyReference.cache
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\obj\Debug\WebDatPhongKhachSan.csproj.CoreCompileInputs.cache
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\obj\Debug\WebDatPh.50C7A612.Up2Date
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\obj\Debug\WebDatPhongKhachSan.dll
+D:\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\obj\Debug\WebDatPhongKhachSan.pdb
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\WebDatPhongKhachSan.dll.config
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\WebDatPhongKhachSan.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\WebDatPhongKhachSan.pdb
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\csc.exe
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\csc.exe.config
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\csc.rsp
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\csi.exe
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\csi.exe.config
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\csi.rsp
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.Managed.Core.targets
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.AppContext.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Collections.Immutable.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Console.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Globalization.Calendars.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.IO.Compression.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.IO.FileSystem.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Net.Http.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Net.Sockets.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Reflection.Metadata.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.ValueTuple.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Xml.XmlDocument.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Xml.XPath.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\vbc.exe
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\vbc.exe.config
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\vbc.rsp
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\VBCSCompiler.exe
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\roslyn\VBCSCompiler.exe.config
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\Microsoft.Web.Infrastructure.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Helpers.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Mvc.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Razor.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Webpages.Deployment.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Webpages.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Webpages.Razor.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Razor.xml
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Webpages.xml
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Webpages.Deployment.xml
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Webpages.Razor.xml
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Helpers.xml
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\System.Web.Mvc.xml
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\obj\Debug\WebDatPhongKhachSan.csproj.AssemblyReference.cache
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\obj\Debug\WebDatPhongKhachSan.csproj.CoreCompileInputs.cache
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\obj\Debug\WebDatPh.50C7A612.Up2Date
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\obj\Debug\WebDatPhongKhachSan.dll
+F:\NgDuyLinh\Đồ án\Nhom_2_Room_HotelBookingSystem\WebDatPhongKhachSan\WebDatPhongKhachSan\obj\Debug\WebDatPhongKhachSan.pdb

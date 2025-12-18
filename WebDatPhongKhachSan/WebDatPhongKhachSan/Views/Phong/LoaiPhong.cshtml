@@ -1,0 +1,418 @@
+﻿@model List<WebDatPhongKhachSan.Models.LoaiPhongCardVM>
+
+@{
+    ViewBag.Title = "Loại phòng";
+    Layout = "~/Views/Shared/LayoutPage.cshtml";
+
+    // FIX: lấy từ string (không cast DateTime? nữa)
+    string ngayNhanStr = ViewBag.NgayNhanStr as string;     // yyyy-MM-dd (dùng cho link)
+    string ngayNhanText = ViewBag.NgayNhanText as string;   // dd/MM/yyyy (dùng hiển thị)
+    bool hasNgayNhan = !string.IsNullOrWhiteSpace(ngayNhanStr);
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+<style>
+    .result-wrap {
+        display: grid;
+        grid-template-columns: 320px 1fr;
+        gap: 18px;
+        align-items: start;
+    }
+
+    @@media (max-width: 992px) {
+        .result-wrap {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .filter-card {
+        background: #fff;
+        border: 1px solid rgba(0,0,0,.08);
+        border-radius: 18px;
+        box-shadow: 0 10px 24px rgba(0,0,0,.06);
+        overflow: hidden;
+        position: sticky;
+        top: 92px;
+    }
+
+    @@media (max-width: 992px) {
+        .filter-card {
+            position: static;
+            top: auto;
+        }
+    }
+
+    .filter-head {
+        padding: 12px 14px;
+        font-weight: 900;
+        border-bottom: 1px solid rgba(0,0,0,.06);
+        background: linear-gradient(135deg,#f8fafc,#fff);
+    }
+
+    .filter-body {
+        padding: 12px 14px;
+    }
+
+    .filter-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px 0;
+        border-bottom: 1px dashed rgba(0,0,0,.08);
+        font-size: .95rem;
+    }
+
+        .filter-item:last-child {
+            border-bottom: 0;
+        }
+
+    .filter-pill {
+        font-size: .8rem;
+        font-weight: 800;
+        padding: 2px 10px;
+        border-radius: 999px;
+        background: #eef2ff;
+        color: #1e40af;
+    }
+
+    .topline {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 12px;
+        margin-bottom: 14px;
+    }
+
+    .sortbox {
+        border-radius: 999px;
+        border: 1px solid rgba(0,0,0,.12);
+        padding: .45rem .8rem;
+        background: #fff;
+        font-weight: 700;
+    }
+
+    .roomtype-card {
+        background: #fff;
+        border-radius: 22px;
+        border: 1px solid rgba(0,0,0,.08);
+        box-shadow: 0 14px 34px rgba(0,0,0,.08);
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: 380px 1fr 230px;
+        gap: 14px;
+        padding: 14px;
+        margin-bottom: 16px;
+        transition: .18s ease;
+    }
+
+        .roomtype-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 22px 52px rgba(0,0,0,.14);
+        }
+
+    @@media (max-width: 1200px) {
+        .roomtype-card {
+            grid-template-columns: 340px 1fr 220px;
+        }
+    }
+
+    @@media (max-width: 992px) {
+        .roomtype-card {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .imgbox {
+        position: relative;
+        border-radius: 18px;
+        overflow: hidden;
+        min-height: 260px;
+    }
+
+        .imgbox img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+    .heart {
+        position: absolute;
+        top: 12px;
+        left: 12px;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: #fff;
+        display: grid;
+        place-items: center;
+        box-shadow: 0 6px 14px rgba(0,0,0,.18);
+        cursor: pointer;
+    }
+
+    .title {
+        font-size: 1.35rem;
+        font-weight: 950;
+        margin: 0;
+        color: #0b4ab8;
+        letter-spacing: -.2px;
+    }
+
+    .stars i {
+        color: #f59e0b;
+        font-size: .9rem;
+    }
+
+    .genius {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 3px 10px;
+        border-radius: 999px;
+        background: #fff7e6;
+        color: #92400e;
+        font-size: .78rem;
+        font-weight: 950;
+        border: 1px solid rgba(255,183,0,.35);
+        margin-left: 8px;
+        transform: translateY(-2px);
+    }
+
+    .subline {
+        color: #64748b;
+        font-size: .95rem;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 6px;
+    }
+
+        .subline a {
+            color: #0b4ab8;
+            text-decoration: none;
+            font-weight: 900;
+        }
+
+    .desc {
+        color: #334155;
+        font-size: .98rem;
+        margin-top: 10px;
+        line-height: 1.35;
+    }
+
+    .side {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 12px;
+        padding: 6px 8px;
+    }
+
+    .scorebox {
+        display: flex;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-end;
+        text-align: right;
+        width: 100%;
+    }
+
+    .scoretext b {
+        display: block;
+    }
+
+    .score {
+        background: #003b95;
+        color: #fff;
+        font-weight: 950;
+        padding: 8px 12px;
+        border-radius: 12px;
+        min-width: 54px;
+        text-align: center;
+        font-size: 1.05rem;
+    }
+
+    .pricebox {
+        width: 100%;
+        border-top: 1px dashed rgba(0,0,0,.10);
+        padding-top: 10px;
+    }
+
+    .price-label {
+        text-align: right;
+        color: #64748b;
+        font-size: .85rem;
+        font-weight: 800;
+    }
+
+    .price-main {
+        text-align: right;
+        font-weight: 950;
+        font-size: 1.25rem;
+    }
+
+    .price-sub {
+        text-align: right;
+        color: #64748b;
+        font-size: .85rem;
+    }
+
+    .btn-price {
+        width: 100%;
+        border-radius: 14px;
+        font-weight: 950;
+        padding: .85rem 1rem;
+        background: linear-gradient(135deg,#0071c2,#0b84e3);
+        border: 0;
+        color: #fff;
+        box-shadow: 0 12px 24px rgba(0,113,194,.22);
+        transition: .15s ease;
+        margin-top: 10px;
+    }
+
+        .btn-price:hover {
+            transform: translateY(-1px);
+            filter: brightness(1.02);
+        }
+</style>
+
+<div class="container py-4">
+
+    <div class="topline">
+        <div>
+            <h3 class="fw-bold mb-1">@ViewBag.TenKS: tìm thấy @Model.Count loại phòng</h3>
+            <div class="text-secondary">@ViewBag.Location</div>
+
+            @* Không có UI chọn ngày, nhưng nếu có ngày từ query string thì vẫn hiển thị thông tin *@
+            @if (hasNgayNhan)
+            {
+                <div class="text-secondary small mt-1">
+                    Đang tính giá theo ngày: <b>@ngayNhanText</b>
+                </div>
+            }
+        </div>
+
+        <select class="sortbox">
+            <option>Sắp xếp theo: Lựa chọn hàng đầu</option>
+            <option>Giá thấp → cao</option>
+            <option>Giá cao → thấp</option>
+        </select>
+    </div>
+
+    <div class="result-wrap">
+        <aside class="filter-card">
+            <div class="filter-head">Chọn lọc theo:</div>
+            <div class="filter-body">
+                <div class="filter-item"><span>Wifi miễn phí</span><span class="filter-pill">46</span></div>
+                <div class="filter-item"><span>Hồ bơi</span><span class="filter-pill">13</span></div>
+                <div class="filter-item"><span>Resort</span><span class="filter-pill">4</span></div>
+                <div class="filter-item"><span>Khách sạn</span><span class="filter-pill">22</span></div>
+                <div class="filter-item"><span>Dưới 1 km</span><span class="filter-pill">2</span></div>
+                <div class="text-secondary small mt-2">* Bộ lọc demo UI (sau nối DB).</div>
+            </div>
+        </aside>
+
+        <section>
+            @if (Model == null || Model.Count == 0)
+            {
+                <div class="alert alert-warning">Khách sạn này chưa có loại phòng.</div>
+            }
+            else
+            {
+                foreach (var x in Model)
+                {
+                    <div class="roomtype-card">
+                        <div class="imgbox">
+                            <img src="@x.ImageUrl" alt="@x.TenLoai" loading="lazy" />
+                            <div class="heart" title="Yêu thích">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h4 class="title">
+                                @x.TenLoai
+                                <span class="stars ms-2">
+                                    @for (int i = 0; i < x.StarCount; i++)
+                                    {<i class="fa-solid fa-star"></i>}
+                                </span>
+
+                                @if (x.IsGenius)
+                                {
+                                    <span class="genius"><i class="fa-solid fa-crown"></i> Genius</span>
+                                }
+                            </h4>
+
+                            <div class="subline">
+                                <span class="fw-bold">@x.TenKS</span>
+                                <span>•</span>
+                                <span>@x.ThanhPho</span>
+                                <a href="#">Xem trên bản đồ</a>
+                            </div>
+
+                            <div class="desc">
+                                <div class="text-secondary small mb-1">
+                                    Sức chứa: <b>@x.SucChuaNguoiLon NL</b> • <b>@x.SucChuaTreEm TE</b>
+                                </div>
+                                @(string.IsNullOrWhiteSpace(x.MoTa)
+                                    ? "Phòng sạch sẽ, tiện nghi, phù hợp nghỉ dưỡng và công tác."
+                                    : x.MoTa)
+                            </div>
+                        </div>
+
+                        <div class="side">
+                            <div class="scorebox">
+                                <div class="scoretext">
+                                    <b>@(x.Rating >= 8.5 ? "Tuyệt vời" : "Rất tốt")</b>
+                                    <div class="text-secondary small">@x.ReviewCount đánh giá</div>
+                                </div>
+                                <div class="score">@x.Rating</div>
+                            </div>
+
+                            <div class="pricebox">
+                                @* ✅ LUÔN HIỂN THỊ GIÁ CƠ BẢN *@
+                                <div class="price-label">Giá cơ bản</div>
+                                <div class="price-main">@String.Format("{0:N0} ₫", x.GiaCoBan)</div>
+
+                                @* ✅ CHỈ HIỂN THỊ GIÁ THEO NGÀY NẾU CÓ NGÀY *@
+                                @if (hasNgayNhan && x.GiaTheoNgay.HasValue)
+                                {
+                                    <div class="price-label mt-2">Giá theo ngày (@ngayNhanText)</div>
+                                    <div class="price-main text-danger">@String.Format("{0:N0} ₫", x.GiaTheoNgay.Value)</div>
+                                    <div class="price-sub">* Có thể tăng vào cuối tuần / ngày lễ</div>
+                                }
+                                else
+                                {
+                                    <div class="price-sub mt-2">* Giá theo ngày sẽ có khi hệ thống nhận được ngày nhận phòng.</div>
+                                }
+
+                                @* ✅ Link giữ lại ngayNhan *@
+                                <a class="btn btn-price"
+                                   href="@Url.Action("ChiTiet", "LoaiPhong", new { maLoaiPhong = x.MaLoaiPhong, ngayNhan = ngayNhanStr })">
+                                    Xem chi tiết / Đặt phòng
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+        </section>
+    </div>
+</div>
+
+<script>
+    document.querySelectorAll('.heart').forEach(el => {
+        el.addEventListener('click', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            const icon = el.querySelector('i');
+            icon.classList.toggle('fa-regular');
+            icon.classList.toggle('fa-solid');
+        });
+    });
+</script>
